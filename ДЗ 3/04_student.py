@@ -16,4 +16,4 @@ for _ in range(10):
     expenses +=new_exp
 print(expenses, "\n", educational_grant*10)
 print(expenses - educational_grant * 10)
-# TODO здесь ваш код
+
