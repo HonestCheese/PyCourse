@@ -75,7 +75,7 @@ def append_flakes(fallen_flakes, where_new_flakes):
         where_new_flakes.append(flake)
         fallen_flakes.remove(flake)
 
-flakes = get_flakes(count=20)  # создать список снежинок
+flakes = get_flakes(count=50)  # создать список снежинок
 fallen_flakes = []
 while True:
     if fallen_flakes:
@@ -83,6 +83,7 @@ while True:
     for flake in flakes:
         flake.move()
         flake.draw()
+    sd.sleep(0.01)
     flake.clear_previous_picture()
     get_fallen_flakes(flakes)  # подчитать сколько снежинок уже упало
     if sd.user_want_exit():
