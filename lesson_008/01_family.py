@@ -54,6 +54,8 @@ class House:
     def __init__(self):
         self.money = 100
         self.food = 0
+        self.cat_food = 0
+                         #Another shit
         self.mud = 0
         self.ate = 0
         self.used_money = 0
@@ -62,7 +64,7 @@ class House:
         return f"Деньги - {self.money},  еда - {self.food}, грязь - {self.mud}"
 
     def used(self):
-            print(f"Съедено - {self.ate}, потрачено - {self.used_money}")
+        print(f"Съедено - {self.ate}, потрачено - {self.used_money}")
 
     def act(self):
         self.mud += 10
@@ -250,20 +252,38 @@ for day in range(365):
 
 class Cat:
 
-    def __init__(self):
-        pass
+    def __init__(self, name, home):
+        self.name = name
+        self.fullness = 40
+        self.status = 'alive'
+        self.home = home
 
     def act(self):
-        pass
+        if self.fullness < 20 and self.home.catfood >= 10:
+            self.eat()
+        else:
+            dice = randint(1,2)
+            if dice == 1:
+                self.sleep()
+            if dice == 2:
+                self.soil()
+            else:
+                self.sleep()
 
     def eat(self):
-        pass
+        self.fullness += 20
+        self.home.catfood -= 10
+        print(f'{self.name} поел, насыщенность - {self.fullness}')
 
     def sleep(self):
-        pass
+        self.fullness -= 10
+        print(f'{self.name} спал ')
 
     def soil(self):
-        pass
+        self.home.mud += 10
+        self.fullness -= 10
+        print(f'{self.name} драл обои)')
+
 
 
 ######################################################## Часть вторая бис
@@ -277,22 +297,27 @@ class Cat:
 # отличия от взрослых - кушает максимум 10 единиц еды,
 # степень счастья  - не меняется, всегда ==100 ;)
 
-class Child:
+class Child(Human):
 
-    def __init__(self):
-        pass
+    def __init__(self, name, home):
+        super().__init__()
+        self.name = name
+        self.home = home
 
     def __str__(self):
-        return super().__str__()
+        return f"{self.name}, cчасьте - {self.happiness},  насыщенность - {self.fullness} "
 
     def act(self):
-        pass
+        if self.fullness < 20 and self.home.food >= 10:
+            self.eat()
+        else:
+            self.sleep()
 
     def eat(self):
-        pass
-
+        self.fullness += 10
+        self.home.food -= 10
     def sleep(self):
-        pass
+        self.fullness -= 10
 
 # TODO после реализации второй части - отдать на проверку учителем две ветки
 
