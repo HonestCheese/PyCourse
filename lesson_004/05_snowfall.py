@@ -18,14 +18,13 @@ n = 10
 # sd.random_number()
 # sd.user_want_exit()
 snowflakes = [sd.random_number(10,50) for _ in range(n)]
-# snowflakes = [sd.random_number(10,50) for _ in range(n)]
 startpoint_x = [sd.random_number(-200,1200) for _ in range(n)]
 startpoint_y =[800 for _ in range(n)]
 color = [sd.random_color() for _ in range(n)]
 
 y=600
+sd.take_background()
 while True:
-    sd.clear_screen()
     sd.start_drawing()
     for i in range(n):
         sd.snowflake(center = sd.Point(startpoint_x[i], startpoint_y[i]), length=snowflakes[i], color=color[i])
@@ -39,6 +38,7 @@ while True:
             startpoint_x[i] = -100
     finish_drawing()
     sd.sleep(0.1)
+    sd.draw_background()
 sd.pause()
 
 # подсказка! для ускорения отрисовки можно
