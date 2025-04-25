@@ -15,7 +15,7 @@ from time import gmtime
 #       icons_by_year/2018/05/man.jpg
 #       icons_by_year/2017/12/new_year_01.jpg
 
-for path, dirs, files in os.walk('/home/kililpol/PycharmProjects/pycourse/lesson_009/icons/actions'):
+for path, dirs, files in os.walk('/home/kililpol/PycharmProjects/pycourse/lesson_009/icons/actions/system-run.png'):
     zipped = sorted(zip(files, [gmtime(os.path.getctime(os.path.join(path, file))) for file in files]),
                     key=lambda x: x[1][1])
 
