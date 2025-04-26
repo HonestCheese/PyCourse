@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="hehehe">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ill_bring_happiness.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_010/01_fifth_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_010/02_groundhog_day.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HonestCheese&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:HonestCheese/PyCourse.git&quot;,
+    &quot;accountId&quot;: &quot;94f5ef4c-dbd1-4e1e-a4bb-b89520fe5eed&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/lesson_004/01_shapes.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_004/02_global_color.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_004/03_shape_select.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_004/04_fractal.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_004/05_snowfall.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_005/02_district.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_005/03_burger.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_005/04_painting.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_006/02_snowfall_module.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_007/01_snowfall.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_007/02_alchemy.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_007/python_snippets/08_practice.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_010/01_fifth_element.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2uo8vG8SNGtjUXcb9NbWC7Do01s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.00_bubbles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_fifth_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_inhabitants.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_mastermind.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_modules.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_shapes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_snowfall.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_alchemy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_district.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_global_color.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_groundhog_day.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_snowfall_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_snowflake.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_burger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_self_param.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_fractal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_painting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_operator_overloading.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_snowfall.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_store.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_rainbow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_wall.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_smile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fractal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ill_bring_happiness.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mastermind.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prob.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rainbow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shapes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snowfall.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wall.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kililpol/PycharmProjects/PyCourse/ill_bring_happiness.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;pyconsole&quot;
+  }
+}</component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myUseExistingConsole" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson_005/drawer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson_006" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="02_groundhog_day" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyCourse" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_010" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_010/02_groundhog_day.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.02_groundhog_day" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="" />
+      <created>1742903805772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742903805772</updated>
+    </task>
+    <task id="LOCAL-00001" summary="lesson 3">
+      <option name="closed" value="true" />
+      <created>1743233746090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743233746098</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lesson 3">
+      <option name="closed" value="true" />
+      <created>1743233890227</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743233890227</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson 4/5/6)">
+      <option name="closed" value="true" />
+      <created>1744212614258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744212614258</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson 3">
+      <option name="closed" value="true" />
+      <created>1744212975027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744212975027</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hehehe">
+      <option name="closed" value="true" />
+      <created>1744732623847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744732623847</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson 4/5/6)" />
+    <MESSAGE value="lesson 3" />
+    <MESSAGE value="hehehe" />
+    <option name="LAST_COMMIT_MESSAGE" value="hehehe" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson_005/drawer/fractal.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
