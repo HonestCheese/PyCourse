@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="hehehe">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ill_bring_happiness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_010/01_fifth_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_010/02_groundhog_day.py" afterDir="false" />
+    <list default="true" id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="lesson 10 pc push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_010/03_registration_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_010/03_registration_log.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +51,7 @@
     <setting file="file://$PROJECT_DIR$/lesson_007/02_alchemy.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson_007/python_snippets/08_practice.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson_010/01_fifth_element.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_010/03_registration_log.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -205,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744732623847</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson 10 pc push">
+      <option name="closed" value="true" />
+      <created>1745689376766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745689376767</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,7 +230,8 @@
     <MESSAGE value="lesson 4/5/6)" />
     <MESSAGE value="lesson 3" />
     <MESSAGE value="hehehe" />
-    <option name="LAST_COMMIT_MESSAGE" value="hehehe" />
+    <MESSAGE value="lesson 10 pc push" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 10 pc push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
