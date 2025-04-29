@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="lesson 10 pc push">
+    <list default="true" id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="10 lesson completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_010/03_registration_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_010/03_registration_log.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,60 +50,59 @@
     <setting file="file://$PROJECT_DIR$/lesson_007/02_alchemy.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson_007/python_snippets/08_practice.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson_010/01_fifth_element.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lesson_010/03_registration_log.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2uo8vG8SNGtjUXcb9NbWC7Do01s" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.00_bubbles.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_fifth_element.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_inhabitants.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_mastermind.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_modules.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_shapes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_snowfall.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_alchemy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_district.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_global_color.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_groundhog_day.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_snowfall_module.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_snowflake.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_burger.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_self_param.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_fractal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_painting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_operator_overloading.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_snowfall.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_store.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06_rainbow.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_wall.executor&quot;: &quot;Run&quot;,
-    &quot;Python.08_practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.08_smile.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fractal.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ill_bring_happiness.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mastermind.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prob.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rainbow.executor&quot;: &quot;Run&quot;,
-    &quot;Python.shapes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snowfall.executor&quot;: &quot;Run&quot;,
-    &quot;Python.wall.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kililpol/PycharmProjects/PyCourse/ill_bring_happiness.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;pyconsole&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.00_bubbles.executor": "Run",
+    "Python.01_fifth_element.executor": "Run",
+    "Python.01_inhabitants.executor": "Run",
+    "Python.01_mastermind.executor": "Run",
+    "Python.01_modules.executor": "Run",
+    "Python.01_shapes.executor": "Run",
+    "Python.01_snowfall.executor": "Run",
+    "Python.02_alchemy.executor": "Run",
+    "Python.02_district.executor": "Run",
+    "Python.02_global_color.executor": "Run",
+    "Python.02_groundhog_day.executor": "Run",
+    "Python.02_snowfall_module.executor": "Run",
+    "Python.02_snowflake.executor": "Run",
+    "Python.03_burger.executor": "Run",
+    "Python.03_registration_log.executor": "Run",
+    "Python.03_self_param.executor": "Run",
+    "Python.04_fractal.executor": "Run",
+    "Python.04_painting.executor": "Run",
+    "Python.05_operator_overloading.executor": "Run",
+    "Python.05_snowfall.executor": "Run",
+    "Python.05_store.executor": "Run",
+    "Python.06_rainbow.executor": "Run",
+    "Python.07_wall.executor": "Run",
+    "Python.08_practice.executor": "Run",
+    "Python.08_smile.executor": "Run",
+    "Python.Unnamed.executor": "Run",
+    "Python.fractal.executor": "Run",
+    "Python.ill_bring_happiness.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mastermind.executor": "Run",
+    "Python.prob.executor": "Run",
+    "Python.rainbow.executor": "Run",
+    "Python.shapes.executor": "Run",
+    "Python.snowfall.executor": "Run",
+    "Python.wall.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/kililpol/PycharmProjects/PyCourse/ill_bring_happiness.py",
+    "settings.editor.selected.configurable": "pyconsole"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myUseExistingConsole" value="true" />
   </component>
@@ -115,35 +113,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lesson_006" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="02_groundhog_day" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyCourse" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_010" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_010/02_groundhog_day.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.02_groundhog_day" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -204,13 +173,13 @@
       <option name="project" value="LOCAL" />
       <updated>1744732623847</updated>
     </task>
-    <task id="LOCAL-00006" summary="lesson 10 pc push">
+    <task id="LOCAL-00006" summary="10 lesson completed">
       <option name="closed" value="true" />
-      <created>1745689376766</created>
+      <created>1745698968968</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1745689376767</updated>
+      <updated>1745698968968</updated>
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
@@ -230,8 +199,8 @@
     <MESSAGE value="lesson 4/5/6)" />
     <MESSAGE value="lesson 3" />
     <MESSAGE value="hehehe" />
-    <MESSAGE value="lesson 10 pc push" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 10 pc push" />
+    <MESSAGE value="10 lesson completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 lesson completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
