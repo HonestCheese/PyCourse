@@ -1,23 +1,35 @@
-class Fibonacci:
-    """Итератор последовательности Фибоначчи до N элементов"""
+def log_errors(func):
+    def okie(param):
+        try:
+            func(param)  # Выполняем функцию
+            return True  # Возвращаем True при успехе
+        except (ZeroDivisionError, ValueError) as arg:
+            print(f"Ошибка: {arg}")  # Печатаем ошибку
+            return False  # Возвращаем False при ошибке
+    return okie
 
-    def __init__(self, n):
-        self.i, self.a, self.b, self.n = 0, 0, 1, n
+@log_errors
+def check_line(line):
+    name, email, age = line.split(' ')
+    if not name.isalpha():
+        raise ValueError("it's not a name")
+    if '@' not in email or '.' not in email:
+        raise ValueError("it's not a email")
+    if not 10 <= int(age) <= 99:
+        raise ValueError('Age not in 10..99 range')
 
-    def __iter__(self):
-        self.i, self.a, self.b = 0, 0, 1
-        return self
+lines = [
+    'Ярослав bxh@ya.ru 600',
+    'Земфира tslzp@mail.ru 52',
+    'Тролль nsocnzas.mail.ru 82',
+    'Джигурда wqxq@gmail.com 29',
+    'Земфира 86',
+    'Равшан wmsuuzsxi@mail.ru 35',
+]
 
-    def __next__(self):
-        self.i += 1
-        if self.i > 1:
-            if self.i > self.n:
-                raise StopIteration()
-            self.a, self.b = self.b, self.a + self.b
-        return self.a
-
-fib_iterator = Fibonacci(23)
-print(fib_iterator)
-for value in fib_iterator:
-    print(value)
-print(13 in fib_iterator)
+for line in lines:
+    if check_line(line):  # Если проверка прошла успешно (True)
+        with open('function_errors.log', 'a+') as file:
+            file.write(line + '\n')  # Записываем строку в файл
+    else:
+        print(f"Строка не прошла проверку: {line}")  # Выводим информацию об ошибке

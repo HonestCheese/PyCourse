@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from os import write
+
 
 # Написать декоратор, который будет логировать (записывать в лог файл)
 # ошибки из декорируемой функции и выбрасывать их дальше.
@@ -7,10 +9,15 @@
 # Формат лога: <имя функции> <параметры вызова> <тип ошибки> <текст ошибки>
 # Лог файл открывать каждый раз при ошибке в режиме 'a'
 
-
 def log_errors(func):
-    pass
-    # TODO здесь ваш код
+    def okie(param):
+        try:
+            func(param)
+            with open('function_errors.log', 'a') as file:
+                file.write(line + '\n')
+        except (ValueError, ZeroDivisionError) as arg:
+            print(f'Error: {arg} - {param}')
+    return okie
 
 
 # Проверить работу на следующих функциях
@@ -39,10 +46,7 @@ lines = [
     'Равшан wmsuuzsxi@mail.ru 35',
 ]
 for line in lines:
-    try:
-        check_line(line)
-    except Exception as exc:
-        print(f'Invalid format: {exc}')
+    check_line(line)
 perky(param=42)
 
 
