@@ -4,14 +4,13 @@ import re
 # На основе своего кода из lesson_009/02_log_parser.py напишите итератор (или генератор)
 # котрый читает исходный файл events.txt и выдает число событий NOK за каждую минуту
 # <время> <число повторений>
-path = '/home/kililpol/PycharmProjects/pycourse/lesson_011/events.txt'
+path = 'events.txt'
 
 
 def ppp(path):
     with open(path, 'r') as file:
         count = 0
         parts = file.readline().strip().split(' ')
-        print(parts)
         start_time = parts[0] + ' ' + parts[1][:5]
         if parts[2] == 'NOK':
             count += 1
