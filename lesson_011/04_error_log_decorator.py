@@ -8,25 +8,26 @@ from os import write
 # Имя файла лога - function_errors.log
 # Формат лога: <имя функции> <параметры вызова> <тип ошибки> <текст ошибки>
 # Лог файл открывать каждый раз при ошибке в режиме 'a'
-
-def log_errors(func):
-    def okie(param):
-        try:
-            func(param)
-            with open('function_errors.log', 'a') as file:
-                file.write(line + '\n')
-        except (ValueError, ZeroDivisionError) as arg:
-            print(f'Error: {arg} - {param}')
-    return okie
+def dec_w(name):
+    def log_errors(func):
+        def okie(param):
+            try:
+                func(param)
+                with open(name, 'a') as file:
+                    file.write(line + '\n')
+            except (ValueError, ZeroDivisionError) as arg:
+                print(f'Error: {arg} - {param}')
+        return okie
+    return log_errors
 
 
 # Проверить работу на следующих функциях
-@log_errors
+@dec_w(None)
 def perky(param):
     return param / 0
 
 
-@log_errors
+@dec_w(name = 'function_errors.log')
 def check_line(line):
     name, email, age = line.split(' ')
     if not name.isalpha():
