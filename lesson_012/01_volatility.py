@@ -1,4 +1,11 @@
-  # -*- coding: utf-8 -*-
+import re
+from collections import defaultdict
+from pprint import pprint
+from threading import Thread  # -*- coding: utf-8 -*-
+import os
+from time import time
+from time import process_time_ns
+import simple_draw as sd
 
 
 # Описание предметной области:
@@ -64,13 +71,57 @@
 # Вывод на консоль можно сделать только после обработки всех файлов.
 #
 # Для плавного перехода к мультипоточности, код оформить в обьектном стиле, используя следующий каркас
-# 
-# class <Название класса>:
-#
-#     def __init__(self, <параметры>):
-#         <сохранение параметров>
-#
-#     def run(self):
-#         <обработка данных>
 
-# TODO написать код в однопоточном/однопроцессорном стиле
+
+class volatility(Thread):
+    def __init__(self, *args, **kwargs):
+        super(volatility, self).__init__(*args, **kwargs)
+        self.dict = defaultdict(list)
+        self.dv = defaultdict(float)
+    def run(self):
+        for _, _, fn in os.walk(os.path.abspath('trades')):
+            for file in fn:
+                absfile = os.path.join('trades', file)
+                with open(absfile, 'r') as file:
+                    file.readline()
+                    for line in file:
+                        name, time, price_str, quantity = line.split(',')
+                        price = float(price_str)
+                        if not (self.dict[name]):
+                            self.dict[name].append(price)
+                            self.dict[name].append(price)
+                        else:
+                            if self.dict[name][0] > price:
+                                self.dict[name][0] = price
+                            if self.dict[name][1] < price:
+                                self.dict[name][1] = price
+        for x, y in self.dict.items():
+            sred = (float(y[1]) + float(y[0])) / 2
+            self.dv[x] = round(((float(y[1]) - float(y[0])) / sred) * 100)
+        self.s = list(sorted(self.dv, key=lambda x: self.dv[x], reverse=True))
+        print("Максимальаня витальность")
+        print(self.s[0], '-', self.dv[self.s[0]])
+        print(self.s[1], '-', self.dv[self.s[1]])
+        print(self.s[2], '-', self.dv[self.s[2]])
+        print("Минимальная витальность")
+        for elem in range(len(self.s)):
+            min_elem = self.dv[self.s[elem]]
+            if min_elem == 0:
+                print(self.s[elem - 1], '-', self.dv[self.s[elem - 1]])
+                print(self.s[elem - 2], '-', self.dv[self.s[elem - 2]])
+                print(self.s[elem - 3], '-', self.dv[self.s[elem - 3]])
+                break
+        print('Нулевая витальность')
+        zero_v = []
+        for elem in range(len(self.s)):
+            if self.dv[self.s[elem]] == 0:
+                zero_v.append(self.s[elem])
+        print(' '.join(map(str,sorted(zero_v))))
+        print(self.dv)
+
+test = volatility()
+start = time()
+test.run()
+end = time()
+print(end-start)
+
