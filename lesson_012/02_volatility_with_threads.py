@@ -64,6 +64,7 @@ for thread in threads:
 for thread in threads:
     thread.join()
 end = time.time()
+pprint(vol_1)
 for x, y in vol_1.items():
     sred = (float(y[1]) + float(y[0])) / 2
     vol_1[x] = round(((float(y[1]) - float(y[0])) / sred) * 100)
