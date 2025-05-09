@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="im going to reinstall system and everything is going to die(probably)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_012/02_volatility_with_threads.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_012/02_volatility_with_threads.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_012/03_volatility_with_processes.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_012/03_volatility_with_processes.py" afterDir="false" />
-    </list>
+    <list default="true" id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="im going to reinstall system and everything is going to die(probably)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +101,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/kililpol/PycharmProjects/PyCourse/ill_bring_happiness.py",
-    "settings.editor.selected.configurable": "pyconsole"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="PyConsoleOptionsProvider">
