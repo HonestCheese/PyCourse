@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="im going to reinstall system and everything is going to die(probably)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_010/01_fifth_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_010/01_fifth_element.py" afterDir="false" />
-    </list>
+    <list default="true" id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="nah this shit i cannot do something on thisk desktop" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746614421308</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="nah this shit i cannot do something on thisk desktop">
+      <option name="closed" value="true" />
+      <created>1746795096825</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746795096825</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +218,8 @@
     <MESSAGE value="hehehe" />
     <MESSAGE value="10 lesson completed" />
     <MESSAGE value="im going to reinstall system and everything is going to die(probably)" />
-    <option name="LAST_COMMIT_MESSAGE" value="im going to reinstall system and everything is going to die(probably)" />
+    <MESSAGE value="nah this shit i cannot do something on thisk desktop" />
+    <option name="LAST_COMMIT_MESSAGE" value="nah this shit i cannot do something on thisk desktop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
