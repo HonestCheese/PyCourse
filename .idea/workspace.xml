@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="im going to reinstall system and everything is going to die(probably)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_012/02_volatility_with_threads.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_012/02_volatility_with_threads.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_012/03_volatility_with_processes.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_012/03_volatility_with_processes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_010/01_fifth_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_010/01_fifth_element.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,53 +60,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.00_bubbles.executor": "Run",
-    "Python.01_fifth_element.executor": "Run",
-    "Python.01_inhabitants.executor": "Run",
-    "Python.01_mastermind.executor": "Run",
-    "Python.01_modules.executor": "Run",
-    "Python.01_shapes.executor": "Run",
-    "Python.01_snowfall.executor": "Run",
-    "Python.01_volatility.executor": "Run",
-    "Python.02_alchemy.executor": "Run",
-    "Python.02_district.executor": "Run",
-    "Python.02_global_color.executor": "Run",
-    "Python.02_groundhog_day.executor": "Run",
-    "Python.02_snowfall_module.executor": "Run",
-    "Python.02_snowflake.executor": "Run",
-    "Python.02_volatility_with_threads.executor": "Run",
-    "Python.03_burger.executor": "Run",
-    "Python.03_registration_log.executor": "Run",
-    "Python.03_self_param.executor": "Run",
-    "Python.03_volatility_with_processes.executor": "Run",
-    "Python.04_fractal.executor": "Run",
-    "Python.04_painting.executor": "Run",
-    "Python.05_operator_overloading.executor": "Run",
-    "Python.05_snowfall.executor": "Run",
-    "Python.05_store.executor": "Run",
-    "Python.06_rainbow.executor": "Run",
-    "Python.07_wall.executor": "Run",
-    "Python.08_practice.executor": "Run",
-    "Python.08_smile.executor": "Run",
-    "Python.Unnamed.executor": "Run",
-    "Python.fractal.executor": "Run",
-    "Python.ill_bring_happiness.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.mastermind.executor": "Run",
-    "Python.prob.executor": "Run",
-    "Python.rainbow.executor": "Run",
-    "Python.shapes.executor": "Run",
-    "Python.snowfall.executor": "Run",
-    "Python.wall.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/kililpol/PycharmProjects/PyCourse/ill_bring_happiness.py",
-    "settings.editor.selected.configurable": "pyconsole"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.00_bubbles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_fifth_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_inhabitants.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_mastermind.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_modules.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_shapes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_snowfall.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_volatility.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_alchemy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_district.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_global_color.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_groundhog_day.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_snowfall_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_snowflake.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_volatility_with_threads.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_burger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_registration_log.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_self_param.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_volatility_with_processes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_fractal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_painting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_operator_overloading.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_snowfall.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_store.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_rainbow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_wall.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_smile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fractal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ill_bring_happiness.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mastermind.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prob.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rainbow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shapes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snowfall.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wall.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kililpol/PycharmProjects/PyCourse/ill_bring_happiness.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;pyconsole&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myUseExistingConsole" value="true" />
   </component>
@@ -122,7 +121,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-348a24fa61fa-5312c7369657-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.23774.444" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
