@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="nah this shit i cannot do something on thisk desktop">
-      <change afterPath="$PROJECT_DIR$/lesson_013/prob.py" afterDir="false" />
+    <list default="true" id="71479898-9db9-4c6a-a17e-310f4e9bb10b" name="Changes" comment="save">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_013/01_ticket.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_013/01_ticket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_013/prob.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_013/prob.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746795096825</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="save">
+      <option name="closed" value="true" />
+      <created>1747038790337</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747038790337</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +233,8 @@
     <MESSAGE value="10 lesson completed" />
     <MESSAGE value="im going to reinstall system and everything is going to die(probably)" />
     <MESSAGE value="nah this shit i cannot do something on thisk desktop" />
-    <option name="LAST_COMMIT_MESSAGE" value="nah this shit i cannot do something on thisk desktop" />
+    <MESSAGE value="save" />
+    <option name="LAST_COMMIT_MESSAGE" value="save" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

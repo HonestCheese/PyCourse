@@ -1,3 +1,3 @@
-import simple_draw as sd
-import inspect
-print(inspect.signature(print))
+import argparse
+parser = argparse.ArgumentParser()
+parser.parse_args()
