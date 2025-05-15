@@ -11,3 +11,23 @@ issubclass(obj1,obj2) - проверяет наследует ли obj1 obj2
     sys.platform - операционка
     sys.version - версия питона
     sys.version_info - хз версия поподробнее
+
+import argparse
+argparse.FileType('mode')
+
+argparse.ArgumentParser(prog='filename', usage = 'auto', description = 'описание',
+                epilog = 'действует после описания аргументов', argument_default,
+                conflict_handler = 'как обрабатывать конфликты error, resolve, custom',
+                add_help etc i dont think that its necessary)
+obj.add_argument('-f', '--file',
+                action - ("store" - аргумент в аргс
+                "store_const" - сохраняет как константу в const
+                store_true(false) сохраняется как true false, "append" - в список через арг
+                "append_const" константа указанная в параметре const добавляется в список)
+                "count" - считает сколько раз аргумент встретился в командной строке
+                "type" - тип данных ожидаемый от аргумента
+                "default" - значение по умолчанию если аргумент не предоставлен
+                "help" - текст подсказка
+                "required" - обязателен
+                )
+obj.parse_args() - возвращает аргументы по имени флага
