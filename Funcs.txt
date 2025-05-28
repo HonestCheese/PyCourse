@@ -11,3 +11,15 @@ issubclass(obj1,obj2) - проверяет наследует ли obj1 obj2
     sys.platform - операционка
     sys.version - версия питона
     sys.version_info - хз версия поподробнее
+    
+Модуль ligging(debug - info - warning - error - critical):
+    logging.exception() - рейзит исключение по уровню логгера
+    Чтобы создать логгер = getLogger('name')
+    логгер.setLevel('level') - уровни ниже будут игнорироваться
+    logging.FileHandler('filename', mode, encode) - cоздает лог-файл куда будут выводиться сообщения создает обработчик
+    logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s') создает формат
+    хендлер.setFormatter('FormatterName') устанавливает формат
+    логгер.setHandler('handlerName') - устанавливает обработчик
+    логгер.exception() - рейзит исключения
+logging.config.dictConfig(log_dict_name)
+логер = logging.getLogger(logger_name_from_dict)
