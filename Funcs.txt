@@ -19,7 +19,7 @@ issubclass(obj1,obj2) - проверяет наследует ли obj1 obj2
     logging.FileHandler('filename', mode, encode) - cоздает лог-файл куда будут выводиться сообщения создает обработчик
     logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s') создает формат
     хендлер.setFormatter('FormatterName') устанавливает формат
-    логгер.setHandler('handlerName') - устанавливает обработчик
+    логгер.addHandler('handlerName') - устанавливает обработчик
     логгер.exception() - рейзит исключения
 logging.config.dictConfig(log_dict_name)
 логер = logging.getLogger(logger_name_from_dict)
