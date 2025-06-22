@@ -8,7 +8,7 @@ class Test1(TestCase):
     def test_(self):
         with patch('reply_bot.vk_api.VkApi'):
             with patch('reply_bot.vk_api.bot_longpoll.VkBotLongPoll'):
-                with patch('reply_bot.vk_session.get_api'):
+                with patch('reply_bot.get_api'):
                     bot = VkBot('','')
                     print()
 
