@@ -27,22 +27,23 @@ class VkBot:
         self.vk = self.vk_session.get_api()
         logger.info('Сервер был открыт')
     def run(self):
-        try:
-            for event in self.group.listen():
-                if event.type == VkBotEventType.MESSAGE_NEW:
-                    logger.info(f'New message - {event.obj.message['text']}')
-                    self.vk.messages.send(user_id=event.obj.message['from_id'],
-                                     message=f'Получил какой то бред: {event.obj.message['text']}',
-                                     random_id = get_random_id())
-                    logger.info(f'Reply - Получил какой то бред: {event.obj.message['text']}')
-                if event.type == VkBotEventType.MESSAGE_TYPING_STATE:
-                    self.vk.messages.send(user_id=event['from_id'], #TODO разобраться с текстом
-                                          message=f'Хватит печатать',
-                                          random_id=get_random_id())
-        except KeyboardInterrupt:
-            exit("Server closed by owner")
-        except Exception as e:
-            logger.error(f'Server down due {e}')
+        for event in self.group.listen():
+            try:
+                self.on_event(event)
+            except KeyboardInterrupt:
+                exit("Server closed by owner")
+            except Exception as e:
+                logger.error(f'Server down due {e}')
+
+    def on_event(self, event):
+        if event.type == VkBotEventType.MESSAGE_NEW:
+            logger.info(f'New message - {event.obj.message['text']}')
+            self.vk.messages.send(user_id=event.obj.message['from_id'],
+                             message=f'Получил какой то бред: {event.obj.message['text']}',
+                             random_id = get_random_id())
+            logger.info(f'Reply - Получил какой то бред: {event.obj.message['text']}')
+
 if __name__ == '__main__':
     bot = VkBot(TOKEN, GROUP_ID)
     bot.run()
+    print()
